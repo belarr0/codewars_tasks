@@ -1,4 +1,4 @@
-sentence = 'abracadabra'
+'''sentence = 'abracadabra'
 
 sum = 0
 
@@ -8,7 +8,18 @@ for i in sentence:
     else:
         continue
 
-print(sum)
+print(sum)'''
+
+sentence = 'abracadabra'
+arr = list(sentence)
+
+a = arr.count('a')
+e = arr.count('e')
+i = arr.count('i')
+o = arr.count('o')
+u = arr.count('u')
+
+print(f"count of all vowell: {a + e + i + o + u}")
 
 
 '''
